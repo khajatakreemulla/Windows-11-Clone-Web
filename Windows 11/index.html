@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="Main" id="bodyclick">
+        <!------------------------------------------ windows 11 bottom menu bar ------------------------------------>
+        <div class="menubar">
+            <img src="images/startmenu.png" width="30px" id="starmenu">
+            <img src="images/search-icon.png" width="30px" id="searchmenu">
+            <img src="images/widget.JPG" width="45px" id="widgetmenu">
+            <img src="images/edge.png" width="30px">
+            <img src="images/playstore.png" width="30px">
+            <img src="images/Folder Icon.png" width="30px">
+        </div>
+        <!----------------------------------------------- windows 11 menu toggle bar --------------------------------------->
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="searchbar">
+                <input type="text" class="text" placeholder="Type here to Search" id="textbar">
+            </div>
+            <div class="firstrow">
+                <h4>Pinned</h4>
+                <h3><a href="#">All Apps ></a></h3>
+            </div>
+            <div class="secondrow">
+                <div>
+                    <img src="/images/m edge.png" width="40px">
+                    <h4>Edge</h4>
+                </div>
+                <div>
+                    <img src="/images/mail.png" width="40px">
+                    <h4>Mail</h4>
+                </div>
+                <div>
+                    <img src="/images/Word.png" width="40px">
+                    <h4>Word</h4>
+                </div>
+                <div>
+                    <img src="/images/PowerPoint.png" width="40px">
+                    <h4>PowerPoint</h4>
+                </div>
+                <div>
+                    <img src="/images/Note.png" width="40px">
+                    <h4>OneNote</h4>
+                </div>
+                <div>
+                    <img src="/images/Todo.png" width="40px">
+                    <h4>ToDo</h4>
+                </div>
+            </div>
+            <div class="thirdrow">
+                <div>
+                    <img src="/images/Excel.png" width="40px">
+                    <h4>Excel</h4>
+                </div>
+                <div>
+                    <img src="/images/facebook.png" width="40px">
+                    <h4>FaceBook</h4>
+                </div>
+                <div>
+                    <img src="/images/photos.png" width="40px">
+                    <h4>Photos</h4>
+                </div>
+                <div>
+                    <img src="/images/twitter.png" width="40px">
+                    <h4>Twitter</h4>
+                </div>
+                <div>
+                    <img src="/images/netflix.png" width="40px">
+                    <h4>Netflix</h4>
+                </div>
+                <div>
+                    <img src="/images/outlook.png" width="40px">
+                    <h4>Outlook</h4>
+                </div>
+            </div>
+            <div class="firstrow">
+                <h4>Recommended</h4>
+                <h3><a href="#">More ></a></h3>
+            </div>
+        </div>
+        <!-------------------------------------- windows 11 menu toggle html end ------------------------->
+        <!-------------------------------------- windows 11 Search toggle html start ------------------------->
+        <div class="search-toggle" id="search-toggle">
+            <div class="searchbar">
+                <input type="text" class="text" placeholder="Type here to Search" id="textbar">
+            </div>
+            <div class="first-row">
+                <h4><a href="#" onclick="allforms()">All</a></h4>
+                <h4><a href="#" onclick="allapps()">Apps</a></h4>
+                <h4><a href="#" onclick="alldocuments()">Documents</a></h4>
+                <h4><a href="#" onclick="allwebs()">Web</a></h4>
+                <!-- <hr id="indicator"> -->
+            </div>
+            <div id="allform" class="allform">
+                <div class="secondminorrow">
+                    <h5>Top Apps</h5>
+                </div>
+                <div class="secondrow">
+                    <div class="sbarfors">
+                        <img src="/images/m edge.png" width="40px">
+                        <h4>Edge</h4>
+                    </div>
+                    <div class="sbarfors">
+                        <img src="/images/mail.png" width="40px">
+                        <h4>Mail</h4>
+                    </div>
+                    <div class="sbarfors">
+                        <img src="/images/Word.png" width="40px">
+                        <h4>Word</h4>
+                    </div>
+                    <div class="sbarfors">
+                        <img src="/images/PowerPoint.png" width="40px">
+                        <h4>PowerPoint</h4>
+                    </div>
+                    <div class="sbarfors">
+                        <img src="/images/Note.png" width="40px">
+                        <h4>OneNote</h4>
+                    </div>
+
+                </div>
+                <div class="recentapp">
+                    <h5>Recent</h5>
+                </div>
+                <div class="recentcontainer">
+                    <div class="leftrecent">
+                        <div class="leftcontent">
+                            <img src="/images/Excel.png" width="35px">
+                            <p>Microsoft Excel Something File</p>
+                        </div>
+                        <div class="leftcontent">
+                            <img src="/images/PowerPoint.png" width="35px">
+                            <p>Microsoft Powerpoint Something File</p>
+                        </div>
+                        <div class="leftcontent">
+                            <img src="/images/Excel.png" width="35px">
+                            <p>Microsoft Excel Something File</p>
+                        </div>
+                    </div>
+                    <div class="rightrecent">
+                        <div class="leftcontent">
+                            <img src="/images/Word.png" width="35px">
+                            <p>Microsoft Word Something File</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="appform" id="appform">
+                <h4>Allapps</h4>
+                <div class="secondrow">
+                    <div>
+                        <img src="/images/m edge.png" width="40px">
+                        <h4>Edge</h4>
+                    </div>
+                    <div>
+                        <img src="/images/mail.png" width="40px">
+                        <h4>Mail</h4>
+                    </div>
+                    <div>
+                        <img src="/images/Word.png" width="40px">
+                        <h4>Word</h4>
+                    </div>
+                    <div>
+                        <img src="/images/PowerPoint.png" width="40px">
+                        <h4>PowerPoint</h4>
+                    </div>
+                    <div>
+                        <img src="/images/Note.png" width="40px">
+                        <h4>OneNote</h4>
+                    </div>
+                    <div>
+                        <img src="/images/Todo.png" width="40px">
+                        <h4>ToDo</h4>
+                    </div>
+                </div>
+                <div class="thirdrow">
+                    <div>
+                        <img src="/images/Excel.png" width="40px">
+                        <h4>Excel</h4>
+                    </div>
+                    <div>
+                        <img src="/images/facebook.png" width="40px">
+                        <h4>FaceBook</h4>
+                    </div>
+                    <div>
+                        <img src="/images/photos.png" width="40px">
+                        <h4>Photos</h4>
+                    </div>
+                    <div>
+                        <img src="/images/twitter.png" width="40px">
+                        <h4>Twitter</h4>
+                    </div>
+                    <div>
+                        <img src="/images/netflix.png" width="40px">
+                        <h4>Netflix</h4>
+                    </div>
+                    <div>
+                        <img src="/images/outlook.png" width="40px">
+                        <h4>Outlook</h4>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="documentform" id="documentform">
+                <h4>All Documents</h4>
+            </div>
+            <div class="webform" id="webform">
+                <h4>All Webs</h4>
+            </div>
+        </div>
+
+        <!-------------------------------------- windows 11 Search toggle html end ------------------------->
+        <!-------------------------------------- windows 11 Widget toggle html Start ------------------------->
+        <div class="MainWidget" id="mainwidget">
+            <div class="time">
+                <h2>
+                    9:11 AM
+                </h2>
+                <img src="/images/profile.jpg" width="30px" height="30px">
+            </div>
+            <div class="imagewidget">
+                <img src="/images/Widgetimage.JPG" alt="">
+                <img src="/images/Widgetimage.JPG" alt="">
+                <img src="/images/Widgetimage.JPG" alt="">
+                <img src="/images/Widgetimage.JPG" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-------------------------------------- windows 11 Widget toggle html end ------------------------->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
